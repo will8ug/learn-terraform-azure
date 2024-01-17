@@ -1,12 +1,17 @@
 terraform {
+  required_version = ">= 1.1.0"
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
       version = "~> 3.0.2"
     }
   }
-
-  required_version = ">= 1.1.0"
+  cloud {
+    organization = "learn_tf_az_9f5456"
+    workspaces {
+      name = "learn-terraform-azure"
+    }
+  }
 }
 
 provider "azurerm" {

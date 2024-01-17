@@ -24,3 +24,7 @@ terraform destroy
 terraform apply -var "resource_group_name=myNewResourceGroupName"
 
 terraform output resource_group_id
+
+------
+terraform login
+terraform init
