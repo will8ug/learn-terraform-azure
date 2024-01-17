@@ -22,3 +22,5 @@ terraform state pull azurerm_resource_group.rg
 terraform destroy
 
 terraform apply -var "resource_group_name=myNewResourceGroupName"
+
+terraform output resource_group_id
