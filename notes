@@ -18,3 +18,5 @@ terraform show
 terraform state list
 terraform state
 terraform state pull azurerm_resource_group.rg
+
+terraform destroy
