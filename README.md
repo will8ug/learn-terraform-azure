@@ -4,7 +4,7 @@
 
 Practices of this guide: [Get Started - Azure](https://developer.hashicorp.com/terraform/tutorials/azure-get-started).
 
-Commands I've learned:
+Relevant commands of this repository:
 ```shell
 az login
 az account set --subscription "<subscription-id>"
